@@ -12,6 +12,7 @@ let timer = false;
 let save = false;
 let moveCounter = 0;
 let timeCounter = 0;
+
 function startGame(n){
     const gemField = new Field(n);
     gemField.create();
